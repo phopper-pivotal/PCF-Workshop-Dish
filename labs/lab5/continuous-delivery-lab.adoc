@@ -12,7 +12,7 @@ This lab will guide you through building a *BASIC* continuous delivery pipeline 
   
 . Edit the manifest.yml at the root of the forked spring-music repository. Change the *host* from ${random-word} to your initials. Jenkins does not like the special characters in the host field and will give an error.
   
-. Login to your Jenkins instance at https://jenkins-0.cfpoc2.internal.t-mobile.com/ with the same username and password that you use for CloudFoundry.
+. Login to your Jenkins instance at https://jenkins-0.some.domain.dish.com/ with the same username and password that you use for CloudFoundry.
 
 
 == Create the Build Job
@@ -51,7 +51,7 @@ echo DEPLOYED_VERSION_CMD
 export ROUTE_VERSION="default"
 echo "Deployed Version: $DEPLOYED_VERSION"
 echo "Route Version: $ROUTE_VERSION"
-export API=https://api.cfpoc2.internal.t-mobile.com
+export API=https://api.some.domain.dish.com
 
 wget -O cf.tgz https://cli.run.pivotal.io/stable?release=linux64-binary&version=6.13.0&source=github-rel
 sleep 5
