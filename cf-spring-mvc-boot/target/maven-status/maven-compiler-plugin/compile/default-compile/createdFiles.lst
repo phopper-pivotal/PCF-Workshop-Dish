@@ -1,0 +1,5 @@
+io/pivotal/workshop/web/DataInitializer.class
+io/pivotal/workshop/web/CloudFoundryWorkshopController.class
+io/pivotal/workshop/entity/Attendee.class
+io/pivotal/workshop/WorkshopApplication.class
+io/pivotal/workshop/repository/AttendeeRepository.class

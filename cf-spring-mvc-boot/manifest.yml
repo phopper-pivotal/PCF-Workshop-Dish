@@ -1,6 +1,6 @@
 applications:
-- name: workshop
-  memory: 512M
+- name: workshop-robh
+  memory: 1GB
   instances: 1
   host: workshop-${random-word}
   path: ./target/cf-spring-mvc-boot-0.0.1-SNAPSHOT.jar
